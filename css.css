@@ -1,0 +1,267 @@
+
+        .product:not(.active) {
+            display: none;
+        }
+
+        .report-results:not(.active) {
+            display: none;
+        }
+
+        .amazon:not(.active) {
+            display: none;
+        }
+
+        .walmart:not(.active) {
+            display: none;
+        }
+
+        .report-results {
+            margin-bottom: 24px;
+        }
+
+        .gridjs-th-content {
+            text-overflow: initial !important;
+        }
+
+        .summary-table {
+            display: grid;
+            grid-template-rows: auto;
+            margin-top: 20px;
+            color: #fff;
+            background-color: rgb(51, 55, 64);
+        }
+
+        .summary-row {
+            border: 1px solid black;
+            ;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .summary-row div {
+            padding: 10px;
+            width: auto;
+        }
+
+        .summary-headers {
+            font-weight: bold;
+            border-right: 1px solid black;
+        }
+
+        .summary-values {
+            width: 20px;
+        }
+
+        .required-astrik {
+            color: red;
+        }
+
+        .has-error {
+            background: pink;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        .run-report-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* GridJS styling */
+        .gridjs-tr {
+            background-color: rgba(0, 0, 0, 1);
+        }
+
+        #forecast-table .gridjs-tr td:first-child,
+        #forecast-table .gridjs-tr th:first-child {
+            background-color: rgba(31, 34, 41, .85) !important;
+            font-weight: bold;
+            position: sticky;
+            left: -1px;
+        }
+
+        /* Bulma styling */
+        .select {
+            width: 100%;
+        }
+
+        .select select {
+            width: 100%;
+        }
+
+        /*  Use Sequence.algoalpha.co css */
+        :root {
+            --bulma-link: #1652ef;
+        }
+
+        .message.is-warning>.message-header,
+        .button {
+            background-color: #1652ef;
+            color: white;
+        }
+
+        .title {
+            padding-bottom: 16px;
+        }
+
+        #inputStartingLots {
+            width: 96px;
+        }
+
+        .checkbox {
+            padding-bottom: 24px;
+        }
+
+        #forecast-table {
+            padding-bottom: 24px;
+        }
+
+        .message-body {
+            background: #181b2b;
+            font-size: 13px;
+            /*  border-inline-start-style: var(--bulma-message-border-style); */
+        }
+
+        .message-header {
+            background: #232639;
+            color: white;
+        }
+
+        .gridjs-td {
+            padding: 10px 10px;
+        }
+
+        body>div.code-embed.w-embed.w-script>section>article.message.is-warning>div.message-body {
+            background: #c9d9f8;
+        }
+
+        .case-image {
+            width: 60%;
+            margin-top: 20px;
+            border-radius: 7px;
+            margin-bottom: 10px;
+        }
+
+        body>div.code-embed.w-embed.w-script>section>div>article:nth-child(2)>div.message-body {
+            background: #c9d9f8;
+        }
+
+        body>div.code-embed.w-embed.w-script>section>div>article:nth-child(4)>div.message-body {
+            background: #c9d9f8;
+        }
+
+        body > section > article.message.is-warning > div.message-body {
+            background: #c9d9f8;
+        }
+        
+        body > section > div > article:nth-child(2) > div.message-body{
+            background: #c9d9f8;
+        }
+
+				body > section > div > article:nth-child(4) > div.message-body{
+            background: #c9d9f8;
+        }
+        
+        .amazon-above-15k:not(.active),
+        .amazon-under-15k:not(.active),
+        .walmart-above-15k:not(.active),
+        .walmart-under-15k:not(.active) {
+            display: none;
+        }
+
+        .case-study-container {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        .case-wrapper {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            padding-right: 50px;
+        }
+
+        @media (min-width: 240px) and (max-width: 768px) {
+            .case-study-container {
+                display: flex;
+                flex-direction: column !important;
+            }
+
+            .case-image {
+                width: 100%;
+            }
+
+            .case-wrapper {
+                display: flex;
+                flex-direction: column;
+                padding: 0px;
+                padding-right: 0px;
+            }
+            .container-4 {
+            width: 100%;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 2rem !important;
+            padding-left: 2rem !important;
+            padding-right: 2rem !important;
+            padding-top: 2rem !important;
+            background-color: white;
+            font-family: manrope;
+        }
+
+        }
+        
+                .container-4 {
+            width: 100%;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 5rem;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            padding-top: 5rem;
+            background-color: white;
+            font-family: manrope;
+        }
+
+        .instructions-h1{
+            font-size: 1.35rem;
+            color: white;
+            font-weight: 600;
+        }
+
+        .steps-h3 {
+            font-size: .85rem;
+            color:white;
+        }
+
+        .steps-p {
+            font-size: .85rem;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .steps-p-indent-bold {
+            color: white;
+            margin-bottom: 5px;
+            padding-left: 3rem;
+            font-weight: 700;
+            font-size: .85rem;
+        }
+        .steps-p-indent {
+            color: white;
+            margin-bottom: 20px;
+            padding-left: 3rem;
+            font-size: .85rem;
+        }
+
+        .disclaimer2 {
+            font-size: 9px;
+            margin-bottom: 20px;
+        }
