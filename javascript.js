@@ -1,6 +1,4 @@
-
-<script>
-    let forecast_grid, summary_grid;
+   let forecast_grid, summary_grid;
     document.head.querySelector('link').remove();
 
     // Report elements
@@ -438,4 +436,3 @@
         // If we exit the loop, we return the result for the midpoint
         return { "Revenue": USDollar.format(low + high), ...calc_profit_from_revenue((low + high) / 2) };
     }
-</script>
